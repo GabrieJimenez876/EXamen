@@ -8,37 +8,44 @@
 <td>        
     <b><p style="font-size:50px;">FORMULARIO DE REGISTRO COMPLETO</p></b>
 
-  <form id="formulario">
+ <form id="formulario">
+    <label for="nombre">Nombre:</label>
     <input type="text" id="nombre" placeholder="Nombre" required><hr>
+    <label for="correo">Edad:</label>
     <input type="number" id="correo" placeholder="Edad" required><hr>
+    <label for="contraseña">Correo:</label>
     <input type="email" id="contraseña" placeholder="Correo" required><hr>
   <hr>
-<h2>Interes:</h2>
-<ul style="list-style:none;">
-  <li>
+
+  <hr>
+
+  <img src="https://www.redfamiliacolombia.org/wp-content/uploads/2015/03/GENERO-nvo.jpg" alt="Logo GENERO-nvo" width="300">
+
+  <br><br>
+
+
+<ul style="list-style:none; padding:0;">
+  <li style="display:inline-block; margin-right:20px;">
     <label>
       <input type="checkbox" onclick="this.nextSibling.style.textDecoration = this.checked ? 'line-through' : 'none';">
       Música
     </label>
   </li>
-  <li>
+  <li style="display:inline-block; margin-right:20px;">
     <label>
       <input type="checkbox" onclick="this.nextSibling.style.textDecoration = this.checked ? 'line-through' : 'none';">
       Deporte
     </label>
   </li>
-  <li>
+  <li style="display:inline-block;">
     <label>
       <input type="checkbox" onclick="this.nextSibling.style.textDecoration = this.checked ? 'line-through' : 'none';">
       Lectura
     </label>
   </li>
 </ul>
-  <hr>
-
-  <img src="https://www.redfamiliacolombia.org/wp-content/uploads/2015/03/GENERO-nvo.jpg" alt="Logo GENERO-nvo" width="150">
-
-  <br><br>
+<hr>
+  
 
 
   <hr>
@@ -50,16 +57,6 @@
     <option value="Femenino">Femenino</option>
     <option value="Otro">Otro</option>
   </select>
-
-  <h2>Lista de animales (desordenada)</h2>
-
-  <ul>
-    <li>Loro</li>
-    <li>Pez</li>
-    <li>Caballo</li>
-    <li>Águila</li>
-  </ul>
-
   <hr>
 
   <h2>Opciones de selección</h2><label for="opciones">Pais:</label>
@@ -69,6 +66,9 @@
     <option value="verde">peru</option>
     <option value="amarillo">ecuador</option>
   </select>
+   <form id="formulario">
+    <label for="nombre">Fecha de Nacimiento:</label>
+    <input type="text" id="dia/mes/ano" placeholder="dia/mes/ano" required><hr>
 
   <hr>
   <h2>Comentarios</h2>
@@ -78,18 +78,20 @@
     <br><br>
     <button type="submit">Ingresar datos</button>
   </form>
-</td><td>
-    <b><p style="font-size:50px;">TABLA DE USUARIOS</p></b>
-  <table border="1">
-    <tr>
-      <th>Nombre</th>
-      <th>Edad</th>
-      <th>Correo</th>
-    </tr>
-    <tr>
-      <td>Ana</td>
-      <td>28</td>
-      <td>
+  <hr>
+
+<td style="vertical-align:top;">
+    <p style="font-size:20px; font-weight:bold;"> Título</p>
+    <hr>
+    <p style="font-size:20px;">Datos de género</p>
+    <hr>
+    <p style="font-size:20px;">Datos complementarios</p>
+    <hr>
+    <p style="font-size:20px;">Datos adicionales</p>
+    <hr>
+    <button type="button">Aceptar</button>
+    <button type="button">Cancelar</button>
+</td>
 </tr> 
 
 </table>
