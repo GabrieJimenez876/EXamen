@@ -6,29 +6,49 @@
 <table border ="1">
     <tr>
 <td>        
-    <b><p style="font-size:50px;">FORMULARIO DE REGISTRO COMPLETO</p></b>
+    <b><p style="font-size:35px;">FORMULARIO DE REGISTRO COMPLETO</p></b>
 
  <form id="formulario">
     <label for="nombre">Nombre:</label>
-    <input type="text" id="nombre" placeholder="Nombre" required><hr>
+    <input type="text" id="nombre" placeholder="Nombre" required><br><br>
     <label for="correo">Edad:</label>
-    <input type="number" id="correo" placeholder="Edad" required><hr>
+    <input type="number" id="correo" placeholder="Edad" required><br><br>
     <label for="contraseña">Correo:</label>
-    <input type="email" id="contraseña" placeholder="Correo" required><hr>
-  <hr>
+    <input type="email" id="contraseña" placeholder="Correo" required> <br><hr>
 
-  <hr>
-
-  <img src="https://www.redfamiliacolombia.org/wp-content/uploads/2015/03/GENERO-nvo.jpg" alt="Logo GENERO-nvo" width="300">
+  <img src="https://www.redfamiliacolombia.org/wp-content/uploads/2015/03/GENERO-nvo.jpg" alt="Logo GENERO-nvo" width="500">
 
   <br><br>
-
-
+<hr>
+<h2>Genero</h2>
 <ul style="list-style:none; padding:0;">
   <li style="display:inline-block; margin-right:20px;">
     <label>
       <input type="checkbox" onclick="this.nextSibling.style.textDecoration = this.checked ? 'line-through' : 'none';">
-      Música
+      Masculino
+    </label>
+  </li>
+  <li style="display:inline-block; margin-right:20px;">
+    <label>
+      <input type="checkbox" onclick="this.nextSibling.style.textDecoration = this.checked ? 'line-through' : 'none';">
+      Femenino
+    </label>
+  </li>
+  <li style="display:inline-block;">
+    <label>
+      <input type="checkbox" onclick="this.nextSibling.style.textDecoration = this.checked ? 'line-through' : 'none';">
+      Otro
+    </label>
+  </li>
+</ul>
+<hr>
+
+<h2>Intereses</h2>
+<ul style="list-style:none; padding:0;">
+  <li style="display:inline-block; margin-right:20px;">
+    <label>
+      <input type="checkbox" onclick="this.nextSibling.style.textDecoration = this.checked ? 'line-through' : 'none';">
+      Musica
     </label>
   </li>
   <li style="display:inline-block; margin-right:20px;">
@@ -44,53 +64,74 @@
     </label>
   </li>
 </ul>
-<hr>
-  
-
-
-  <hr>
-  <h2>Genero</h2>
-
-  <label for="opciones">Genero:</label>
+<br>  <label for="opciones">Pais:</label>
   <select id="opciones" name="opciones">
-    <option value="Masculino">Masculino</option>
-    <option value="Femenino">Femenino</option>
-    <option value="Otro">Otro</option>
+    <option value="bolivia">bolivia   </option>
+    <option value="chile">chile</option>
+    <option value="peru">peru</option>
+    <option value="ecuador">ecuador</option>
   </select>
-  <hr>
-
-  <h2>Opciones de selección</h2><label for="opciones">Pais:</label>
-  <select id="opciones" name="opciones">
-    <option value="rojo">bolivia   </option>
-    <option value="azul">chile</option>
-    <option value="verde">peru</option>
-    <option value="amarillo">ecuador</option>
-  </select>
+  <br>
    <form id="formulario">
     <label for="nombre">Fecha de Nacimiento:</label>
-    <input type="text" id="dia/mes/ano" placeholder="dia/mes/ano" required><hr>
-
-  <hr>
+    <input type="text" id="dia/mes/ano" placeholder="dia/mes/ano" required><br><br>
+<hr>
+  <label for="archivo">chosse file:</label>
+<input type="file" id="archivo" name="archivo">
+<br>
   <h2>Comentarios</h2>
   <br><br>
   <form>
-    <textarea name="comentarios" rows="5" cols="40" placeholder="Escribe tu comentario aquí..."></textarea>
+    <textarea name="comentarios" rows="5" cols="40" placeholder="Escribe tu comentario aqui..."></textarea>
     <br><br>
     <button type="submit">Ingresar datos</button>
   </form>
   <hr>
+<button type="submit" style="background-color:blue; color:white; padding:8px 16px; border:none; border-radius:4px;">Registrar</button>
+<button type="reset" style="background-color:blue; color:white; padding:8px 16px; border:none; border-radius:4px;">Limpiar</button>
 
+</td>
+</td>
 <td style="vertical-align:top;">
-    <p style="font-size:20px; font-weight:bold;"> Título</p>
+    <br>    <br>    <br>
+    <br>
+
+
+    <p style="font-size:20px; font-weight:bold;">Titulo</p>    <br>
+    <br>
+    <br>    <br>
+    <br>
+
+
+    <hr>    <br>
+    <br>    <br>
+    <br>
+    <p style="font-size:20px;">Datos de Genero</p>    <br>
+    <br>    <br>
+    <br>    <br>
+    <br>
+    <br>    <br>
+    <br>    <br>
+    <br>    <br>
+
+
     <hr>
-    <p style="font-size:20px;">Datos de género</p>
-    <hr>
+        <br>
+    <br>    <br>
+    <br>
     <p style="font-size:20px;">Datos complementarios</p>
-    <hr>
-    <p style="font-size:20px;">Datos adicionales</p>
-    <hr>
-    <button type="button">Aceptar</button>
-    <button type="button">Cancelar</button>
+        <br>
+    <br>    <br>
+    <br>
+    <hr>    <br>
+    <br>    <br>
+    <br>
+    <p style="font-size:20px;">Datos adicionales</p>    <br>
+    <br>       <br>
+<hr>    <br>
+    <br>   
+    <p style="font-size:20px;">botones
+    <br></p>
 </td>
 </tr> 
 
