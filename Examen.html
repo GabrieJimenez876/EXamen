@@ -1,1 +1,78 @@
-<head></head>
+<html>
+<head>
+  <title>Laboratorio HTML Completo</title>
+</head>
+<body>
+
+<b><p style="font-size:12px;">FORMULARIO DE REGISTRO COMPLETO (36px)</p></b>
+
+  <h2>Genero</h2>
+
+  <label for="opciones">Genero:</label>
+  <select id="opciones" name="opciones">
+    <option value="rojo">Masculino</option>
+    <option value="azul">Femenino</option>
+    <option value="verde">Otro</option>
+  </select>
+
+  <hr>
+<h2>Interes:</h2>
+<ul style="list-style:none;">
+  <li>
+    <label>
+      <input type="checkbox" onclick="this.nextSibling.style.textDecoration = this.checked ? 'line-through' : 'none';">
+      Música
+    </label>
+  </li>
+  <li>
+    <label>
+      <input type="checkbox" onclick="this.nextSibling.style.textDecoration = this.checked ? 'line-through' : 'none';">
+      Deporte
+    </label>
+  </li>
+  <li>
+    <label>
+      <input type="checkbox" onclick="this.nextSibling.style.textDecoration = this.checked ? 'line-through' : 'none';">
+      Lectura
+    </label>
+  </li>
+</ul>
+  <hr>
+
+  <img src="https://www.redfamiliacolombia.org/wp-content/uploads/2015/03/GENERO-nvo.jpg" alt="Logo GENERO-nvo" width="150">
+
+  <br><br>
+
+
+  <hr>
+
+  <h2>Lista de animales (desordenada)</h2>
+
+  <ul>
+    <li>Loro</li>
+    <li>Pez</li>
+    <li>Caballo</li>
+    <li>Águila</li>
+  </ul>
+
+  <hr>
+
+  <h2>Opciones de selección</h2><label for="opciones">Pais:</label>
+  <select id="opciones" name="opciones">
+    <option value="rojo">bolivia   </option>
+    <option value="azul">chile</option>
+    <option value="verde">peru</option>
+    <option value="amarillo">ecuador</option>
+  </select>
+
+  <hr>
+  <h2>Comentarios</h2>
+  <br><br>
+  <form>
+    <textarea name="comentarios" rows="5" cols="40" placeholder="Escribe tu comentario aquí..."></textarea>
+    <br><br>
+    <button type="submit">Ingresar datos</button>
+  </form>
+
+</body>
+</html>
