@@ -3,18 +3,15 @@
   <title>Laboratorio HTML Completo</title>
 </head>
 <body>
+<table border ="1">
+    <tr>
+<td>        
+    <b><p style="font-size:50px;">FORMULARIO DE REGISTRO COMPLETO</p></b>
 
-<b><p style="font-size:12px;">FORMULARIO DE REGISTRO COMPLETO (36px)</p></b>
-
-  <h2>Genero</h2>
-
-  <label for="opciones">Genero:</label>
-  <select id="opciones" name="opciones">
-    <option value="rojo">Masculino</option>
-    <option value="azul">Femenino</option>
-    <option value="verde">Otro</option>
-  </select>
-
+  <form id="formulario">
+    <input type="text" id="nombre" placeholder="Nombre" required><hr>
+    <input type="number" id="correo" placeholder="Edad" required><hr>
+    <input type="email" id="contraseña" placeholder="Correo" required><hr>
   <hr>
 <h2>Interes:</h2>
 <ul style="list-style:none;">
@@ -45,6 +42,14 @@
 
 
   <hr>
+  <h2>Genero</h2>
+
+  <label for="opciones">Genero:</label>
+  <select id="opciones" name="opciones">
+    <option value="Masculino">Masculino</option>
+    <option value="Femenino">Femenino</option>
+    <option value="Otro">Otro</option>
+  </select>
 
   <h2>Lista de animales (desordenada)</h2>
 
@@ -73,6 +78,20 @@
     <br><br>
     <button type="submit">Ingresar datos</button>
   </form>
+</td><td>
+    <b><p style="font-size:50px;">TABLA DE USUARIOS</p></b>
+  <table border="1">
+    <tr>
+      <th>Nombre</th>
+      <th>Edad</th>
+      <th>Correo</th>
+    </tr>
+    <tr>
+      <td>Ana</td>
+      <td>28</td>
+      <td>
+</tr> 
 
+</table>
 </body>
 </html>
